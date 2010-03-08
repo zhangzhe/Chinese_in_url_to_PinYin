@@ -12,5 +12,5 @@ by default, title will be pinyinlized in URL, it can be changed to name(or other
     pinyinlize :name
 or  pinyinlize :other
   
-Exmple see:
+Example see:
 http://zhangzhe.heroku.com/

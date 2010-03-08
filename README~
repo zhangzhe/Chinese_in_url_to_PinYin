@@ -1,6 +1,7 @@
-If model name is Chinese, use Pinyin in URL. Trying railscasts's http://railscasts.com/episodes/63-model-name-in-url. Found it is not good if the model name is Chinese charactor.
+If model name is Chinese, using Pinyin in stead in URL. 
+Trying railscasts's http://railscasts.com/episodes/63-model-name-in-url. Found it is not good if the model name is Chinese charactor.
 
-This plugin change the Chinese model name into Pinyin, and use it in URL.
+So made this plugin to change the Chinese model name into Pinyin, and use it in URL.
 
 How to use:
 1.puts Chinese_in_url_to_PinYin into vendor/plugins
