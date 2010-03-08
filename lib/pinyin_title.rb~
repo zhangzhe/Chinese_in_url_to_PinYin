@@ -4,7 +4,7 @@ module PinyinTitle
     end
 
   module ClassMethods
-    def pinyinlize(pinyin_type = :title)
+    def pinyin_title(pinyin_type = :title)
       include PinyinTitle::InstanceMethods
       class_variable_set(:@@pinyin_type, pinyin_type.to_s)
     end
